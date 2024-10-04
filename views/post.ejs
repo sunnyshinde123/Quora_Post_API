@@ -1,0 +1,22 @@
+<%- include("includes/head.ejs") %>
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Here is the post you asked for</h1>
+    <p>Post id:<%=postData.id%></p>
+    <div class="box">
+      <h3>@<%=postData.username%></h3>
+      <p><%=postData.content%></p>
+    </div>
+    <br>
+    <a href="/posts">Back to All Posts</a>
+  </body>
+  </html>
+</body>
+</html>
